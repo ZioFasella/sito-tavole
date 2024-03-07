@@ -1,0 +1,90 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Salsa', cursive;
+}
+h2 {
+    text-align: center;
+}
+/* Modifiche stile e dimensione immagini  */
+img {
+    width: 300px;
+    border: 5px solid rgb(161, 36, 134);
+    margin: 20px;
+}
+
+ h2 {
+    font-size: 38px;
+ }
+/* la foto con classe "snake" ha le sue dimensioni */
+.snake { 
+    width: 320px; height: 200px; 
+}
+/* centrare la frase del copyright nel footer */
+.copy {
+    text-align: center;
+    font-size: 25px;
+}
+/* impostare il colore dello sfondo del "header" */
+#navigazione {
+    background-color: rgb(30, 88, 88);
+    padding: 10px;
+}
+
+/* mettere il menu di navigazione orizzontalmente */
+header > nav > ul > li {
+    display: inline-block; 
+    margin-right: 78px; 
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+/* impostare lo stile del testo di menu di navigazione */
+header nav ul li a {
+    text-decoration: none;
+    color: aquamarine;  
+}
+
+/* centrare e ridimensionare il titolo */
+.titolo {
+    text-align: center;
+    font-size: 100px;
+    border: 5px solid rgb(31, 183, 14);
+}
+/* Pagina "il surf" */
+/* per centrare e dimensionare la foto */
+.primafotosurf {
+    text-align: center;
+}
+.ridersurf {
+    width: 500px;
+}
+
+/* Pagina "lo skate" */
+/* per centrare e dimensionare la foto */
+.primafotoskate {
+    text-align: center;
+}
+.riderskate {
+    width: 500px;
+}
+
+/* Pagina "lo snake" */
+/* per centrare e dimensionare la foto */
+.primafotosnake {
+    text-align: center;
+}
+.ridersnake {
+    width: 500px;
+}
+
+/* Pagina "lo snowboarder" */
+/* per centrare e dimensionare la foto */
+.primafotosnow {
+    text-align: center;
+}
+.ridersnow {
+    width: 500px;
+}
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boards</title>
+    <link rel="stylesheet" href="board.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Salsa&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="navigazione">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="surf.html">Il Surf</a></li>
+                <li><a href="skateboard.html">Lo Skateboard</a></li>
+                <li><a href="snakeboard.html">Lo Snakeboard</a></li>
+                <li><a href="snowboard.html">Lo Snowboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titolo">Boards</h1>
+        <h2><mark>Uno stile di vita che diventò parte di molti di noi</mark></h2>
+        <p>Surfare per strada è ciò che venne in mente ai californiani che, negli anni ‘50, stanchi di aspettare l’onda
+            perfetta, decisero di trovare una valida alternativa al surf in acqua. Attaccarono 4 ruote a una tavola di
+            legno dando così vita al surf da sidewalk, ovvero da marciapiede. Nel giro di una ventina di anni lo
+            skateboard divenne una vera alternativa alle onde.Da querl momento in poi , non ci sono stati più freni
+            all'immaginazione del Rider, da quel momento in poi, il surf si evolse, alzando sempre di più l'asticella
+            ed arrivando addirittura sulle montagne.</p>
+    </main>
+    <img src="https://hips.hearstapps.com/hmg-prod/images/surf-1664367907.jpg" alt="surf">
+    <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F06%2Fadidas-skateboarding-miles-silvas-3st-004-rider-series-fall-winter-2019-4.jpg?cbr=1&q=90"
+        alt="skate">
+    <img src="https://i.pinimg.com/originals/ea/5b/b6/ea5bb65c3db6d3949994c5a56eda0b5f.jpg" alt="snakeboard"
+        class="snake">
+    <img src="https://www.glisshop.it/Imagestorage/images/0/0/5e4d0ee46cb48_pack_snowboard_ride.jpg" alt="snow">
+
+</body>
+<main>
+    <!-- Creazione di un form -->
+    <form action="POST">
+        <p>I campi con * sono obbligatori</p>
+        <p>
+            <label for="Nome">
+                Scrivi il tuo cazzo di nome
+                <span aria-label="richiesto"></span>
+            </label>
+            <input type="text" id="Nome" name="Nome" placeholder="Rider" required />
+        </p>
+        <label for="e-mail">
+            Scrivi la tua cazzo di e-mail
+            <span aria-label="richiesto"></span>
+        </label>
+        <input type="e-mail" id="e-mail" name="e-mail" placeholder="Rider@hotmail.com" required />
+        </p>
+        <label for="Commento">
+            Lascia un cazzo di commento
+            <span aria-label="richiesto"></span>
+        </label>
+        <textarea name="commento" id="commento" cols="30" rows="10" placeholder="scrivi un cazzo di commento"
+            required></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="privacy" id="privacy" required>
+            <label for="privacy">
+                Spunta la casella e non ti preoccupare che i tuoi cazzo di dati non saranno divulgati
+                <span aria-label="richiesto">*</span>
+            </label>
+        </p>
+        <!-- Bottone per inviare le informazioni -->
+        <input type="submit" value="Bravo hai commentato ora invia">
+    </form>
+    <footer>
+        <p class="copy">&copy; 2024 - 🛹 Realizzato con Hardcore da Zio Fasella 🛹</p>
+    </footer>
+</main>
+
+</html>
